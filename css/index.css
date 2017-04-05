@@ -638,7 +638,7 @@ body {
 	left: 100%;
 	top:0;
 	text-align: center;
-	font-size: .1rem;
+	font-size: .2rem;
 }
 .js_share .zc-icon{
 	font-size: .6rem;
@@ -664,6 +664,7 @@ body {
 .promise_l{
 	width:20%;
 	float: left;
+	font-size: .2rem;
 }
 .promise_r{
 	width:80%;
@@ -738,9 +739,9 @@ body {
 }
 .de-foot a .zc-icon{
 	width:100%;
-	height:.5rem;
+	height:.6rem;
 	font-size: .4rem;
-	line-height: .5rem;
+	line-height: .6rem;
 }
 .de-foot .gouwuche{
 	width:35%;
