@@ -45,11 +45,11 @@ body {
 
 @font-face {
   font-family: 'zc-icon';  /* project id 260475 */
-  src: url('//at.alicdn.com/t/font_1vu9tdqf7wtp4x6r.eot');
-  src: url('//at.alicdn.com/t/font_1vu9tdqf7wtp4x6r.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1vu9tdqf7wtp4x6r.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1vu9tdqf7wtp4x6r.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1vu9tdqf7wtp4x6r.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_pfqtdfgg6kt65hfr.eot');
+  src: url('//at.alicdn.com/t/font_pfqtdfgg6kt65hfr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_pfqtdfgg6kt65hfr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_pfqtdfgg6kt65hfr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_pfqtdfgg6kt65hfr.svg#iconfont') format('svg');
 }
 .zc-icon{
 	font-family: 'zc-icon';
@@ -893,7 +893,7 @@ body {
 	display: block;
 	float: right;
 	color:#999;
-	font-size: .2rem;
+	font-size: .3rem;
 }
 .my-order-r .zc-icon{
 	color:#666;
