@@ -12,14 +12,60 @@
 			注册
 		</div>
 		<div id="head"></div>
-		<form class="reg-sign-form" action="">
-            <input class="txt-phone" type="text" name="phone" value="请输入您的手机号" maxlength="20">
-            <input class="pwd-password text" type="text" name="password" placeholder="请设置6-20位的登录密码" autocomplete="off">
-        	<input class="btn-box " type="button" value="注册" disabled="">
-        	<p class="p2">
-        		轻触上面的“注册”按钮，即表示你同意<br>
-        		<a href="#">《三九轴承用户协议》</a>
-        	</p>
-    	</form>
+    	<form class="reg-sign-form" method="post" action="member.mobi?cmd=reg&ac=register" data-ajax="false">
+			<input type="hidden" name="open_id" id="open_hidden" value="">
+		  		<table width="100%" border="0" cellspacing="2" >
+				<tr> 
+			 		<td width="85%">用户名<br/><input name="name" type="text" class="input_text" placeholder="例：张三" id="name" size="35"/><br/>
+			  			<font>请设置您的昵称</font>			 
+			 		</td>
+				</tr>
+				<tr> 
+			 		<td width="85%">
+			 			账号
+			 			<input name="username" type="text" placeholder="例：123456@qq.com" class="input_text" id="username" size="35"/><br/>
+			  			<font>由5~25个字母、数字、特殊符号给成</font>			  
+			 		</td>
+				</tr>
+				<tr> 
+			  		<td>
+			  			密 码
+			  			<input id="password" name="password" type="password" class="input_text" size="35"/>
+			  			<font>同样由5~25个字母、数字、特殊符号给成</font>
+			  		</td>
+				</tr>
+				<tr> 
+			  		<td>确认密码<br/><input id="repassword" name="repassword" type="password" class="input_text" size="35"/>
+			  			
+			  			<font>请再次输入您设置的密码</font>
+			  		</td>
+				</tr>
+				<tr>
+					<td>
+						手机号码
+						<input id="repassword" name="mobile" type="text" class="input_text" size="35"/><br/>
+						<font>请输入您的手机号码</font>
+					</td>
+				</tr>
+				<tr> 
+				  	<td class="sign-read">  
+				  		<div class="sign-read-l">
+			  				<input class="sign-read-input" type="checkbox" name="agreement" id="checkbox-1a" checked="1">
+			  			</div>
+			  			<div class="sign-read-r">
+			  				<label for="checkbox-1a">我已阅读并同意 会员注册协议 和 隐私保护政策</label>
+			  			</div>
+				  	</td>
+				</tr>
+				<tr> 
+			  		<td> 
+			  			<input type="hidden" name="ref" value="">
+			  			<input type="submit" class="btn-box" data-icon="check" value="注 册"/><br/>
+			  			<a class="sign-h" href="login.html">已有账号？立即登录</a>
+			  		</td>
+				</tr>
+		  	</table>
+		</form>  
+
 	</body>
 </html>

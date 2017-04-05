@@ -590,23 +590,48 @@ body {
 .reg-sign-form{
 	padding:.6rem .3rem 0; 
 }
+.reg-sign-form tr{
+	width:100%;
+	height: auto;
+	margin-bottom: .3rem;
+}
 .reg-sign-form input{
 	width:100%;
 	height:.8rem;
 	line-height: .8rem;
 	border:1px solid @eee;
 	color:#666;
-	margin:.2rem 0;
+	margin:.1rem 0 0;
 }
 .reg-sign-form .btn-box{
 	color:white;
 }
-.reg-sign-form .p2 {
-    font-size: 14px;
-    text-align: center;
-    color: #666;
-    line-height: 24px;
-    margin-top:.2rem;
+.reg-sign-form font{
+	color:#999;
+	font-size: .3rem;
+}
+.sign-h{
+	font-size: .3rem;
+}
+.sign-read{
+	width:80%;
+	height: auto;
+	padding:.1rem .2rem;
+	border:1px solid #ccc;
+	border-radius: .2rem .2rem .2rem .2rem;
+	margin:.2rem 0;
+}
+.sign-read-l{
+	width:15%;
+	float: left;
+	padding:.2rem;
+}
+
+.sign-read-r{
+	width:85%;
+	float: left;
+	padding:.2rem;
+	font-size: .36rem;
 }
 
 
