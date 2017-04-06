@@ -176,6 +176,8 @@
 	top:.1rem;
 	background:#eee;
 	border:none;
+	line-height: .4rem;
+	color:#999;
 }
 #js-so .but{
 	width:1rem;
@@ -187,6 +189,27 @@
 	margin-left: .1rem;
 	border:none;
 	font-size: .3rem;
+}
+
+.search-ul{
+	width:100%;
+	height: auto;
+	overflow: hidden;
+	padding: .2rem;
+}
+.search-ul li{
+	width:auto;
+	height: .8rem;
+	overflow: hidden;
+	margin-right:.2rem;
+	background:#fff;
+	float: left;
+	line-height: .8rem;
+	font-size: .3rem;
+	color:#666;
+	text-align: center;
+	padding:0 .2rem;
+	border:1px solid #eee;
 }
 
 /*搜索*/
