@@ -29,7 +29,7 @@
 	left:0;
 	top:0rem;
 	font-size: .4rem;
-	color:#fff;
+	color:#666;
 }
 .pic-head-r{
 	width:auto;
@@ -80,6 +80,74 @@
 	border-radius: 50%;
 	float: left;
 	margin-right: .1rem;
+}
+.pic_con{
+	width:100%;
+	height: auto;
+	overflow: hidden;
+	padding:.2rem;
+}
+.pic_con a{
+	display: block;
+	width:50%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+}
+.pic_con a:nth-child(odd){
+	padding-right:.1rem;
+
+}
+.pic_con a:nth-child(even){
+	padding-left:.1rem;
+}
+.pic_con a img{
+	width:100%;
+	height: 2.5rem;
+}
+.pic_con a div{
+	width:100%;
+	height: .6rem;
+	line-height: .6rem;
+	font-size: .3rem;
+	display: block;
+ 	overflow: hidden;
+ 	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.pic-clearfix{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	padding:.3rem 0;
+}
+.pic-clearfix-list{
+	display: block;
+	width:50%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+}
+.pic-clearfix-list .zc-icon{
+	width:1rem;
+	height: 1rem;
+	border-radius: 50%;
+	border:2px solid #666;
+	text-align: center;
+	line-height: .8rem;
+	margin:0 auto;
+	font-size: .6rem;
+}
+.pic-clearfix-list span{
+	font-size: .3rem;
+}
+.pic-cp{
+	width:100%;
+	padding:.4rem 0 ;
+	text-align: center;
+	font-size: .3rem;
+	color:#666;
 }
 
 
