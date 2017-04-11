@@ -45,11 +45,11 @@ body {
 
 @font-face {
   font-family: 'zc-icon';  /* project id 260475 */
-  src: url('//at.alicdn.com/t/font_pfqtdfgg6kt65hfr.eot');
-  src: url('//at.alicdn.com/t/font_pfqtdfgg6kt65hfr.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_pfqtdfgg6kt65hfr.woff') format('woff'),
-  url('//at.alicdn.com/t/font_pfqtdfgg6kt65hfr.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_pfqtdfgg6kt65hfr.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_k731ijbgu6noecdi.eot');
+  src: url('//at.alicdn.com/t/font_k731ijbgu6noecdi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_k731ijbgu6noecdi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_k731ijbgu6noecdi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_k731ijbgu6noecdi.svg#iconfont') format('svg');
 }
 .zc-icon{
 	font-family: 'zc-icon';

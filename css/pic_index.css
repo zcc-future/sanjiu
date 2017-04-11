@@ -213,9 +213,82 @@
 }
 
 /*搜索*/
+#details-con{
+	width:100%;
+	height: auto;
+}
+.details-con{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	height: auto;
+	overflow: hidden;
+	padding:0 .2rem;
+}
+.details-imgs{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.details-imgs img{
+	width:100%;
+	height:4rem;
+}
+#pic-de-foot{
+	width:100%;
+	height:1rem;
+}
+.pic-de-foot{
+	width:100%;
+	height:1rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+}
+.pic-de-foot a{
+	display: block;
+	width:20%;
+	height:100%;
+	float: left;
+	border:1px solid #eee;
+	border-left: none;
+	text-align: center;
+	background:#fff;
+	font-size: .2rem;
+}
+.pic-de-foot a span{
+	font-size: .1rem;
+	line-height: .1rem;
+}
+.pic-de-foot a .zc-icon{
+	width:100%;
+	height:.6rem;
+	font-size: .6rem;
+	line-height: 1rem;
+}
+.pic-de-foot .pic-gouwuche{
+	width:40%;
+	background:#FF9402;
+	border:none;
+	line-height: 1rem;
+	color:white;
+	font-size: .3rem;
+}
+
+.pic-de-foot .pic-goumai{
+	width:40%;
+	background:#3EBB2B;
+	border:none;
+	line-height: 1rem;
+	color:white;
+	font-size: .3rem;
+}
 
 
 
+/*详情*/
 
 
 #pic-foot{
