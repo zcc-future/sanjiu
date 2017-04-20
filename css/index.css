@@ -42,6 +42,10 @@ body {
 @media screen and (min-width: 414px) {
   html {
     font-size: 55.2px; } }
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 106.66667px; } }
+       
 * {font-family: "Microsoft YaHei","zc-icon"  !important;}
 @font-face {
   font-family: 'zc-icon';  /* project id 260475 */
