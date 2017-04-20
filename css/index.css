@@ -1450,9 +1450,9 @@ body {
 }
 .foot_fixed li a{
 	color:white;
-	font-size: 12px;
+	font-size: .1rem;
 }
 .foot_fixed li a .zc-icon{
-	font-size: 22px;
+	font-size: .4rem;
 }
 /*底部固定栏*/
