@@ -44,7 +44,13 @@ body {
     font-size: 55.2px; } }
 @media screen and (min-width: 768px) {
   html {
-    font-size: 106.66667px; } }
+    font-size: 102.4px; } }
+    @media screen and (min-width: 768px) {
+  html {
+    font-size: 106.6667px; } }
+    @media screen and (min-width: 768px) {
+  html {
+    font-size: 136.5333px; } }
        
 * {font-family: "Microsoft YaHei","zc-icon"  !important;}
 @font-face {
