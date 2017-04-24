@@ -55,11 +55,11 @@ body {
 * {font-family: "Microsoft YaHei","zc-icon"  !important;}
 @font-face {
   font-family: 'zc-icon';  /* project id 260475 */
-  src: url('//at.alicdn.com/t/font_kmlo2ewhizxjq0k9.eot');
-  src: url('//at.alicdn.com/t/font_kmlo2ewhizxjq0k9.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_kmlo2ewhizxjq0k9.woff') format('woff'),
-  url('//at.alicdn.com/t/font_kmlo2ewhizxjq0k9.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_kmlo2ewhizxjq0k9.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_d55r9c7g8rara4i.eot');
+  src: url('//at.alicdn.com/t/font_d55r9c7g8rara4i.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_d55r9c7g8rara4i.woff') format('woff'),
+  url('//at.alicdn.com/t/font_d55r9c7g8rara4i.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_d55r9c7g8rara4i.svg#iconfont') format('svg');
 }
 .zc-icon{
 	font-family: 'zc-icon';
@@ -90,6 +90,7 @@ body {
 	background: none;
 	border:none;
 	color:#999;
+	font-size: .2rem;
 }
 .head_input .zc-icon{
 	width:.6rem;
@@ -97,6 +98,7 @@ body {
 	line-height: .6rem;
 	color:#666;
 	float: right;
+	font-size: .3rem;
 }
 #head{
 	width:100%;
@@ -115,6 +117,7 @@ body {
 	left: 0;
 	top: 0;
 	z-index: 999;
+	font-size: .34rem;
 }
 .head-f .zc-icon{
 	display: block;
@@ -459,8 +462,119 @@ body {
 }
 
 /*底部*/
+.ss-top{
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+	background:#eee;
+}
+.ss-top a{
+	display: block; 
+	width:33.3333%;
+	height:.8rem;
+	text-align: center;
+	line-height: .8rem;
+	float: left;
+	font-size: .2rem;
+	position: relative;
+}
+.jt-up{
+	width:auto;
+	height: .4rem;
+	line-height: .4rem;
+	display: block;
+	position: absolute;
+	right:.6rem;
+	top:.1rem;
+}
+.jt-down{
+	width:auto;
+	height: .4rem;
+	line-height: .4rem;
+	display: block;
+	position: absolute;
+	right:.6rem;
+	bottom:.1rem;
+}
+.ss-list-ul{
+	width:100%;
+	height: auto;
+	overflow: hidden;
+	padding:0 .2rem;
+}
+.ss-list-ul li{
+	width:100%;
+	margin-top:.2rem;
+	height: auto;
+	overflow: hidden;
+}
+.ss-list{
+	display: block;
+	width:100%;
+	height: 2.5rem;
+	
+}
+.ss-list-l{
+	width:35%;
+	height:100%;
+	float: left;
+}
+.ss-list-l img{
+	width:100%;
+	height:100%;
+}
+.ss-list-r{
+	width:65%;
+	height:100%;
+	float: left;
+	line-height: .6rem;
+	font-size: .3rem;
+	color:#333;
+	border-bottom:1px solid #eee;
+}
+.ss-list-r span{
+	display: block;
+	line-height: .6rem;  
+}
 
 
+
+/*搜索*/
+
+.brand-list-ul{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	padding:.2rem 0;
+}
+.brand-list-ul li{
+	width:25%;
+	height:1.5rem;
+	float: left;
+	padding:0 .1rem;
+	background:#fff;
+	border-right:1px solid #eee;
+	border-bottom:1px solid #eee;
+}
+.brand-list{
+	display: block;
+	width:100%;
+	height:100%;
+	text-align: center;
+	font-size: .2rem;
+	line-height: .3rem;
+	overflow: hidden;
+ 	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.brand-list img{
+	width:100%;
+	height:1rem;
+}
+
+
+
+/*品牌中心*/
 
 #classify{
 	width:100%;
@@ -1131,28 +1245,97 @@ body {
 }
 .cart-foot{
 	width:100%;
-	height:1.4rem;
+	height:1rem;
 	position: fixed;
 	left: 0;
-	bottom:1.4rem;
+	bottom:1.2rem;
 	background:#333;
 	line-height: 1rem;
 	color:#fff;
 	text-align: center;
+	font-size: .3rem;
 }
 .cart-foot-r{
 	display: block;
-	width:20%;
+	width:25%;
 	height: 1rem;
 	background: #FF6600;
 	float: right;
 	color:#fff;
+	font-size: .3rem;
 }
 
 
 
 /*购物车*/
+#address{
+	width:100%;
+	height:1rem;
+	line-height:1rem;
+	background:#fff;
+	margin-top:.4rem;
+	padding:0 .2rem;
+	font-size: .3rem;
+}
+#address a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:red;
+}
 
+.jt-r{
+	width:auto;
+	height:1rem;
+	font-size: .3rem;
+	position: absolute;
+	right:.2rem;
+	top:0;
+	color:#666;
+}
+.zf-way{
+	width:100%;
+	height:1rem;
+	line-height: 1rem;
+	padding:0 .2rem;
+	background:#fff;
+	font-size: .3rem;
+}
+.zf-way .zc-icon{
+	color:red;
+}
+.payment{
+	width:100%;
+	height: auto;
+	overflow: hidden;
+	padding:0 .2rem;
+	margin-top:.2rem;
+	background:#fff;
+	
+}
+.payment-list{
+	width:100%;
+	height:.8rem;
+	line-height: .8rem;
+	font-size: .2rem;
+}
+.payment-r{
+	width:auto;
+	height:100%;
+	position: absolute;
+	right:.2rem;
+	top:0;
+	color:red;
+}
+
+.cart-foot.zf-foot{
+	position: fixed;
+	left: 0;
+	bottom:0rem;
+}
+
+
+/*提交订单*/
 
 .nav-tab-top{
 	width:100%;
