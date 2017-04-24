@@ -1536,6 +1536,22 @@ body {
 
 /*我的优惠券*/
 
+.address-foot{
+	width:100%;
+	height:1rem;
+	background: #008CEE;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	line-height: 1rem;
+	text-align: center;
+}
+.address-foot a{
+	display: block;
+	width:100%;
+	height: 100%;
+	color:#fff;
+}
 
 /*收货地址*/
 .news-ul{
