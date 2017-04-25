@@ -5,20 +5,29 @@
 		<title>收货地址</title>
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/index.css" />
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.js"></script>
-		<script src="js/index.js"></script>
+		<link rel="stylesheet" href="css/cityPicker.css" />
+		
 	</head>
-	<body >
+	<body style="background:#F3F4F6;">
 		<div class="head-f">
 			<a href="myCenter.html" class="zc-icon">&#xe603;</a>
 			收货地址
 		</div>
 		<div id="head"></div>
-		
-		
-		
-		
+		<div class="address-editor">
+			<div class="address-item">
+				<input type="text" class="city" value="请输入所在地区"/>
+			</div>
+			<div class="address-item">
+				<input type="text" value="请输入详细地址"/>
+			</div>
+			<div class="address-item">
+				<input type="text" value="请输入收货人姓名"/>
+			</div>
+			<div class="address-item">
+				<input type="text" value="请输入收货人联系电话" maxlength="11"/>
+			</div>
+		</div>
 		
 		<!--内容-->
 		
@@ -28,4 +37,10 @@
 		
 	</body>
 </html>
-<script src="js/address.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+<script src="js/cityPicker.js"></script>
+<script>
+	 $(".city").CityPicker();
+</script>
