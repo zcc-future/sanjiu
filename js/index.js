@@ -14,7 +14,7 @@ $(function(){
 		$(this).css({'background':'white','border-right':'1px solid white'})
 		$('.classify_con').css('display','none').eq(index).css('display','block');
 	})
-//	产品分类
+	//	产品分类
   	$('.fixed_title a').eq(0).css('border-bottom','1px solid #FF4200')
 	$('.details-con').css('display','none').eq(0).css('display','block');
 	$('.fixed_title a').on('touchend',function(){
@@ -24,7 +24,7 @@ $(function(){
 		$('.details-con').css('display','none').eq(index).css('display','block');
 	})
 	
-//详情介绍
+	//详情介绍
 	$('.nav-tab-top li').eq(0).css({'border-bottom':'1px solid #FF4200'})
 	$('.nav-list').css('display','none').eq(0).css('display','block');
 	$('.nav-tab-top li').on('touchend',function(){
@@ -35,7 +35,7 @@ $(function(){
 	})
 
 
-//订单中心
+   //订单中心
 	$('.coupon-list li').eq(0).css({'border-bottom':'1px solid #FF4200'})
 	$('.coupon-con-list').css('display','none').eq(0).css('display','block');
 	$('.coupon-list li').on('touchend',function(){
@@ -46,6 +46,8 @@ $(function(){
 	})
 	
 	//我的优惠券
+	
+
 
 
 })

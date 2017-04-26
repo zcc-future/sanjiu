@@ -825,6 +825,26 @@ body {
 .swiper-container img{
 	width: 100%;
 	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.details-yuan{
+	width:1.2rem;
+	height:.18rem;
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:.2rem;
+	margin: auto;
+}
+.details-yuan li{
+	width:.18rem;
+	height:.18rem;
+	border-radius: 50%;
+	float: left;
+	background:#eee;
+	margin-right: .1rem;
 }
 .good-part{
 	width:100%;
@@ -858,6 +878,25 @@ body {
 	line-height: .8rem;
 	color:red;
 	font-weight: bold;
+}
+.grod_price span{
+	font-weight: normal;
+	font-size: .1rem;
+	margin-left: .2rem;
+	border:1px solid #FF4200;
+	padding:0 .1rem;
+	color:#FF4200;
+	border-radius: .1rem .1rem .1rem .1rem;
+}
+.st_price{
+	width: 100%;
+	height: .6rem;
+	line-height: .6rem;	
+	font-size: .2rem;
+	color:#666;
+}
+.st_price span{
+	text-decoration: line-through;
 }
 .promise{
 	width: 100%;
@@ -1307,14 +1346,14 @@ body {
 }
 .zf-way{
 	width:100%;
-	height:1rem;
-	line-height: 1rem;
+	height:auto;
+	line-height: .8rem;
 	padding:0 .2rem;
 	background:#fff;
 	font-size: .3rem;
 }
-.zf-way .zc-icon{
-	color:red;
+.zf-list{
+	display: inline-block;
 }
 .payment{
 	width:100%;
