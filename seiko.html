@@ -18,12 +18,19 @@
 		<form id="seikoForm">
 			<div>微信搜索“三九轴承网”，关注有惊喜！</div>
 			<ul class="seiko-title">
-				<li>型号查询</li>
+				<li style="background: #eee;">型号查询</li>
 			</ul>
 			<ul class="seiko-con">
 				<li>
 					型号：
 					<input type="text" />
+				</li>
+				<li>
+					类型：
+					<select name="cat" style="height:24px;">
+						<option value=''>任意类型</option>
+						<option value="球轴承">球轴承</option>
+					</select>
 				</li>
 				<li>
 					内径：
@@ -38,15 +45,22 @@
 					<input type="text" />
 				</li>
 				<li>
-					型号：
-					<input type="text" />
-				</li>
-				<li>
 					重量：
 					<input type="text" />
 				</li>
+				<li style="text-align: center;">
+					<input type="radio" name="type" value="fuzzy" checked="checked">
+					模糊搜索&nbsp;&nbsp;
+					<input type="radio" name="type" value="exact" >
+					精确搜索
+					</br>
+					<input class="search_in" name="" type="submit" value="查询一下" />
+				</li>
 			</ul>
 		</form>
+		<div class="seiko-code">
+			<img src="images/222.jpg" />
+		</div>
 			
 		
 	</body>

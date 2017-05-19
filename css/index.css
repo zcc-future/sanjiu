@@ -1809,9 +1809,25 @@ body {
 	background: #eee ;
 }
 .seiko-con li{
-	width: 50%;
-	float: left;
+	width: 100%;
 	padding-bottom:.2rem;
 	box-sizing: border-box;
 }
+.search_in{
+	margin-top:.2rem;
+	background:#008CEE;
+	padding:.1rem .2rem;
+	color:#fff;
+	border:none;
+}
+.seiko-code{
+	width:3rem;
+	height:3rem;
+	margin:0 auto;
+	overflow: hidden;
+}
+.seiko-code img{
+	height: 100%;
+}
+
 /*型号查询*/
