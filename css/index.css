@@ -1793,12 +1793,16 @@ body {
 	font-size: .4rem;
 }
 /*底部固定栏*/
+
+
+
 #seikoForm{
 	width:100%;
 	box-sizing: border-box;
 	height:auto;
 	padding:.6rem .3rem;
 	font-size: .3rem;
+	color:#333;
 }
 .seiko-title{
 	width:100%;
@@ -1833,12 +1837,17 @@ body {
 }
 .seiko-code{
 	width:3rem;
-	height:3rem;
-	margin:0 auto;
+	height:auto;
+	margin:.2rem auto;
 	overflow: hidden;
+	line-height:.6rem;
+	font-size: .3rem;
+	color:#666;
+	text-align: center;
 }
 .seiko-code img{
-	height: 100%;
+	width:3rem;
+	height: 3rem;
 }
 
 .cx-title1 {
@@ -1867,5 +1876,102 @@ body {
     font-size: 12px;
     color: #002F76;
 }
+.panel{
+    border-color: #428bca;
+    margin:0 .2rem;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+     margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.panel-heading {
+    font-size: .3rem;
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+    padding:.2rem;
+}
+#lblList{
+	width:100%;
+	box-sizing: border-box;
+	padding:.2rem;
+}
+#lblList ul{
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 4px;
+  margin: .2rem;
+  padding: .2rem .3rem;
+
+}
+#lblList ul li{
+	line-height:.5rem;
+	font-size: .28rem;
+   color:#666;
+}
+#lblList ul li:nth-child(1) a{
+	color:#428bca;
+}
 
 /*型号查询*/
+
+.panel-information{
+	border-color: #428bca;
+  margin:0 .2rem;
+  border:1px solid #ccc;
+  box-sizing: border-box;
+  margin: .2rem;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+.panel-information .panel-heading{
+	background:#fff;
+	color:#428bca;
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+}
+.panel-information ul{
+  border-radius: 4px;
+  margin: .2rem;
+  padding: .2rem .3rem;
+}
+.panel-information ul li{
+	line-height:.5rem;
+	font-size: .28rem;
+   color:#666;
+}
+#panel-con{
+	padding:.2rem;
+}
+
+.panel-information dl {
+    margin: 10px;
+}
+.panel-information dl dt {
+    color: #FAA723;
+    clear: both;
+}
+.panel-information dl dd {
+    line-height: 25px;
+    padding-bottom: .2rem;
+}
+.panel-information dl dd ul{ 
+	width:100%;
+	}
+.panel-information dl dd ul li{
+	float:left;
+	width:25%; 
+	line-height:25px; 
+	height:25px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+/*型号查询详情*/
