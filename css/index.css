@@ -250,10 +250,17 @@ body {
 	display: block;
 	width:100%;
 	height:30%;
+	position: relative;
 }
 .con_l_img img{
-	width:100%;
-	height:100%;
+	  width: 90%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }
 
 .con_l_img:nth-child(1){
@@ -272,6 +279,10 @@ body {
 	border-right:1px solid #eee;
 	border-bottom:1px solid #eee;
 	float: left;
+}
+.con_r_img img{
+	width:100%;
+	height:100%;
 }
 .con_r_img:nth-child(3){
 	height:40%;
@@ -1828,6 +1839,33 @@ body {
 }
 .seiko-code img{
 	height: 100%;
+}
+
+.cx-title1 {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #FF9D0B;
+    font-size: 12px;
+    font-weight: bold;
+    padding:.2rem
+}
+.con_dbula {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: .2rem;
+}
+.con_dbula li {
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+    float: left;
+}
+.con_dbula li a {
+    font-size: 12px;
+    color: #002F76;
 }
 
 /*型号查询*/
